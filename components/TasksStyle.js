@@ -19,12 +19,12 @@ styles = StyleSheet.create({
     flexWrap: "wrap",
   },
 
+  itemButtom: {
+    flexDirection: "row",
+    gap: 15,
+  },
+
   square: {
-    width: 24,
-    height: 24,
-    backgroundColor: "#55BCF6",
-    opacity: 0.4,
-    borderRadius: 5,
     marginRight: 15,
   },
 
@@ -32,12 +32,20 @@ styles = StyleSheet.create({
     maxWidth: "80%",
   },
 
-  circular: {
-    width: 12,
-    height: 12,
-    borderColor: "#55BCF6",
-    borderWidth: 2,
-    borderRadius: 50,
+  iconButton: {
+    fontSize: 15,
+  },
+
+  itemEdit: {
+    justifyContent: "space-between",
+    flex: 1,
+  },
+
+  editButton: {
+    backgroundColor: "green",
+    paddingVertical: 8,
+    paddingHorizontal: 12,
+    borderRadius: 10,
   },
 });
 
